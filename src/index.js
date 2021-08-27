@@ -11,6 +11,7 @@ import Home from './components/Home';
 import Loader from 'react-loader-spinner';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
+// Loader uses hearts for loading between tabs. 
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <App />
       </Switch>
     </Router>
+
     <Loader
       className="loader"
       type="Hearts"
