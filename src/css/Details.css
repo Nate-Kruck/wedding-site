@@ -1,0 +1,9 @@
+.details-bg {
+  background-image: url("../images/president.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-container {
+  text-align: center;
+}

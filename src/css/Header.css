@@ -18,8 +18,9 @@
   color: black;
 } */
 
-h1 {
+.main-header {
   font-family: headerFont;
+  color: var(--bs-pink);
 }
 
 .navbar {
@@ -29,3 +30,7 @@ h1 {
 /* a.nav-link:active {
   background: black;
 } */
+
+.travel-container {
+  text-align: center;
+}

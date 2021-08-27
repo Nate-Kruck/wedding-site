@@ -1,17 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../Details.css';
+import '../css/Details.css';
+import Header from '../components/Header.js';
 
 const Details = () => {
     return (
         <>
-            <div>
-                <h1>Event Details</h1>
-                <p>Kruckenberg wedding details will be posted here</p>
-            </div>
-            <div>
-                <Link to="/">Home</Link>
-            </div>
+            <Header />
+                <div className="event-container">
+                    <h1 className="event-header">Event Details</h1>
+                    <p>Kruckenberg wedding details will be posted here</p>
+                </div>
         </>
     )
 }
