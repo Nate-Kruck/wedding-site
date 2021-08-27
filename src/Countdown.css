@@ -1,0 +1,8 @@
+.Countdown {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
