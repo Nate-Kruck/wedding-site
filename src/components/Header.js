@@ -18,8 +18,7 @@ class Header extends React.Component {
                                 </Slide>
 
                                 <Nav.Item className="nav">
-                                        <Nav.Link className="Travel" href="/travel">Travel</Nav.Link>
-                                        <Nav.Link className="Accommodations" href="/accommodations">Accommodations</Nav.Link>
+                                        <Nav.Link className="Travel" href="/travel">Travel & Accommodations</Nav.Link>
                                 </Nav.Item>
                         </Nav>
                </Navbar>
