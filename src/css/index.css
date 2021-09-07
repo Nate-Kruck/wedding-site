@@ -12,13 +12,7 @@ code {
     monospace;
 }
 
-/* div.loader-container {
-  position: relative;
-} */
-
 .loader {
-  /* left: 46%;
-  top: 48%; */
   display: flex;
   align-items: center;
   justify-content: center;

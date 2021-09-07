@@ -1,15 +1,61 @@
 import React from 'react';
 import Header from '../components/Header.js';
 import '../css/Travel.css';
+import luggage from '../images/luggage.png';
+import plane from '../images/plane-3.svg';
 
 const Travel = () => {
     return (
         <>
                 <Header />
                 <div className="travel-container">
-                    <h1 className="travel-header">Travel</h1>
-                    <p>Travel details will be posted here</p>
+                    <div className="travel-header">
+                        <h1>Travel <span className="small-character">& </span>Accommodations</h1>
+                        <p>For your convenience, we have three wonderful hotels to choose from. Each hotel has a room block under "Garcia-Kruckenberg Wedding" and include discounted rates. <br/> Click on links below to book your room. </p>
+                    </div>
+
+                <div className="airport">
+                    <img alt="airplane" src={plane}/>
+                    <h2>MCI</h2>
+                    <p>Airport</p>
+                    <p>Twenty two minute drive to downtown Kansas City</p>
                 </div>
+
+                <div className="hotel-1">
+                    <img alt="luggage" src={luggage}/>
+                    <h2>Hilton President</h2>
+                    <p>Hotel</p>
+                    <p>1329 Baltimore Avenue <br/> Kansas City, MO 64105</p>
+                    <p>(816) 221-9490</p>
+                    <p>This is where we will be having our wedding reception.</p>
+                    {/* <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MKCCUQQ&arrivalDate=2022-07-20&departureDate=2022-07-24&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" className="hotel-button" target="blank" alt="hilton">Visit</a> */}
+                </div>
+                
+                <div className="hotel-2">
+                    <img alt="luggage" src={luggage}/>
+                    <h2>Hotel Phillips</h2>
+                    <p>Hotel</p>
+                    <p>106 W 12th Street <br/> Kansas City, MO 64105</p>
+                    <p>(816) 221-7000</p>
+                    <p>Three minute drive from the reception</p>
+                    <div className="btn-wrapper">
+                    <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MKCCUQQ&arrivalDate=2022-07-20&departureDate=2022-07-24&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" className="hotel-button" target="blank" alt="hilton">Visit</a>
+                    </div>
+                </div>
+
+                <div className="hotel-3">
+                    <img alt="luggage" src={luggage}/>
+                    <h2>21C Museum Hotel</h2>
+                    <p>Hotel</p>
+                    <p>219 West 9th Street <br/> Kansas City, MO 64105</p>
+                    <p>(816) 443-4200</p>
+                    <p>Three minute drive from the reception</p>
+                    <div className="btn-wrapper">
+                    <a href="https://book.passkey.com/event/50221663/owner/49860193/home" className="hotel-button" target="blank" alt="21c-hotel">Visit</a>
+                    </div>
+                </div>
+                </div>
+                
         </>
     )
 }

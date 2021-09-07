@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Details from './components/Details';
 import Travel from './components/Travel';
-import Accommodations from './components/Accommodations';
 import Home from './components/Home';
 import Loader from 'react-loader-spinner';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
@@ -19,7 +18,6 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/details" component={Details}/>
         <Route exact path="/travel" component={Travel}/>
-        <Route exact path="/accommodations" component={Accommodations}/>
         <Route exact path="/" component={Home}/>
         <App />
       </Switch>
