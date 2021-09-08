@@ -7,24 +7,20 @@
   src: url(N:\wedding-site\wedding-site\src\fonts\Blacksword.otf);
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 15vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: calc(7px + 1);
-  color: black;
-} */
-
-.main-header {
-  font-family: headerFont;
-  color: var(--bs-pink);
+.navbar {
+  /* display: grid; */
+  justify-content: center;
+  background: url("../images/arches.png");
+  border-bottom: 4px double #4a4a4a;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100vw;
 }
 
-.navbar {
-  justify-content: center;
+.name-title {
+  font-family: headerFont;
+  color: var(--bs-pink);
+  padding: 35px 20px 5px 20px;
 }
 
 /* a.nav-link:active {

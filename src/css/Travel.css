@@ -8,6 +8,11 @@
   src: url(../fonts/Blacksword.otf);
 }
 
+@font-face {
+  font-family: "milton";
+  src: url(../fonts/Milton_bold.otf);
+}
+
 /* html {
   box-sizing: border-box;
 } */
@@ -34,7 +39,7 @@ body {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 1;
-  padding-top: 70px;
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -47,7 +52,7 @@ body {
   margin-left: 13%;
   margin-right: 13%;
   padding-top: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 150px;
 }
 
 img {
@@ -57,8 +62,9 @@ img {
 }
 
 .travel-header h1 {
-  font-family: cursiveText;
+  font-family: milton;
   color: #414141;
+  font-size: 110px;
 }
 
 .airport h2 {
@@ -68,9 +74,9 @@ img {
 .travel-header p:nth-of-type(1) {
   margin: auto;
   font-style: italic;
-  inline-size: 600px;
+  inline-size: 800px;
   word-wrap: normal;
-  padding-top: 20px;
+  padding-top: 1px;
   letter-spacing: 1.5px;
 }
 

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "textFont";
+  src: url(../fonts/text-font.woff2);
+}
+
+@font-face {
+  font-family: "cursiveText";
+  src: url(../fonts/Blacksword.otf);
+}
+
+@font-face {
+  font-family: "milton";
+  src: url(../fonts/Milton_bold.otf);
+}
+
+.photo-container {
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, 2fr);
+  text-align: center;
+  margin: 5px;
+}
+
+.photo-header h1 {
+  font-family: milton;
+  color: #414141;
+  font-size: 110px;
+}
+
+.photo-header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: center;
+  border-bottom: 4px double #4a4a4a;
+}
+
+.photo-header p:nth-of-type(1) {
+  margin: auto;
+  font-style: italic;
+  inline-size: 900px;
+  word-wrap: normal;
+  padding-top: 1px;
+  letter-spacing: 1.5px;
+}
