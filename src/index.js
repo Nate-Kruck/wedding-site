@@ -4,9 +4,10 @@ import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Details from './components/Details';
+import Schedule from './components/Schedule';
 import Travel from './components/Travel';
 import Home from './components/Home';
+import Photos from './components/Photos';
 import Loader from 'react-loader-spinner';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
@@ -16,7 +17,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route exact path="/details" component={Details}/>
+      <Route exact path="/photos" component={Photos}/>
+        <Route exact path="/schedule" component={Schedule}/>
         <Route exact path="/travel" component={Travel}/>
         <Route exact path="/" component={Home}/>
         <App />

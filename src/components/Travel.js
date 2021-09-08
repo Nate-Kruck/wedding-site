@@ -11,7 +11,7 @@ const Travel = () => {
                 <div className="travel-container">
                     <div className="travel-header">
                         <h1>Travel <span className="small-character">& </span>Accommodations</h1>
-                        <p>For your convenience, we have three wonderful hotels to choose from. Each hotel has a room block under "Garcia-Kruckenberg Wedding" and include discounted rates. <br/> Click on links below to book your room. </p>
+                        <p>For your convenience, we have three wonderful hotels to choose from. Each hotel has a room block under "Garcia-Kruckenberg Wedding" and include discounted rates. <br/> <b>Click on links below to book your discounted room.</b> </p>
                     </div>
 
                 <div className="airport">
@@ -39,7 +39,7 @@ const Travel = () => {
                     <p>(816) 221-7000</p>
                     <p>Three minute drive from the reception</p>
                     <div className="btn-wrapper">
-                    <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MKCCUQQ&arrivalDate=2022-07-20&departureDate=2022-07-24&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" className="hotel-button" target="blank" alt="hilton">Visit</a>
+                    <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MKCCUQQ&arrivalDate=2022-07-20&departureDate=2022-07-24&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" className="hotel-button" target="blank" alt="hilton">Book Room</a>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ const Travel = () => {
                     <p>(816) 443-4200</p>
                     <p>Three minute drive from the reception</p>
                     <div className="btn-wrapper">
-                    <a href="https://book.passkey.com/event/50221663/owner/49860193/home" className="hotel-button" target="blank" alt="21c-hotel">Visit</a>
+                    <a href="https://book.passkey.com/event/50221663/owner/49860193/home" className="hotel-button" target="blank" alt="21c-hotel">Book Room</a>
                     </div>
                 </div>
                 </div>
