@@ -1,3 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  /* font-family: "Verdana", sans-serif; */
+}
+
 :root {
   --bs-pink: #dc3545;
 }
@@ -8,21 +16,84 @@
 }
 
 .navbar {
-  /* display: grid; */
+  height: 100%;
+  width: 100%;
   justify-content: center;
   background: url("../images/arches.png");
+  background-color: #fef8e6;
   border-bottom: 4px double #4a4a4a;
-  font-size: 15px;
-  font-weight: 500;
-  width: 100vw;
+  line-height: 2.5rem;
 }
 
-.name-title {
-  font-family: headerFont;
-  color: var(--bs-pink);
-  padding: 35px 20px 5px 20px;
+.btn-link {
+  display: block;
+  height: 100%;
+  font-weight: 650;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 15px;
 }
 
-/* a.nav-link:active {
-  background: black;
-} */
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+  color: #414141;
+}
+
+/* Question for Willow */
+/* flat or transparent background for nav button hover */
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: 730;
+  box-shadow: 0px 0px 30px rgba(175, 38, 255, 0.329);
+  color: #414141;
+  background-color: #fef8e6;
+}
+
+@media (min-width: 375px) {
+  .navbar {
+    /* display: grid; */
+    /* justify-content: center;
+    background: url("../images/arches.png");
+    border-bottom: 4px double #4a4a4a;
+    font-size: 5px;
+    font-weight: 500;
+    margin: 0 auto; */
+    width: 100%;
+  }
+}
+
+.btn-link::after,
+.btn-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px double transparent;
+}
+
+.btn-link::after {
+  width: 0%;
+  height: 80%;
+  border-top: 2px solid#fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.5s ease;
+}
+
+.btn-link::before {
+  width: 110%;
+  height: 0%;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: all 0.5s ease;
+}
+
+.btn-link:hover::before {
+  height: 80%;
+}
+
+.btn-link:hover::after {
+  width: 110%;
+}

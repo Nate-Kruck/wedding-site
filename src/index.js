@@ -8,8 +8,10 @@ import Schedule from './components/Schedule';
 import Travel from './components/Travel';
 import Home from './components/Home';
 import Photos from './components/Photos';
-import Loader from 'react-loader-spinner';
+// import Loader from 'react-loader-spinner';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import FaqPage from './components/FaqPage';
+import Registry from './components/Registry';
 
 // Loader uses hearts for loading between tabs. 
 
@@ -21,18 +23,20 @@ ReactDOM.render(
         <Route exact path="/schedule" component={Schedule}/>
         <Route exact path="/travel" component={Travel}/>
         <Route exact path="/" component={Home}/>
+        <Route exact path="/faq" component={FaqPage}/>
+        <Route exact path="/registry" component={Registry}/>
         <App />
       </Switch>
     </Router>
 
-    <Loader
+    {/* <Loader
       className="loader"
       type="Hearts"
-      color="#d11b59"
-      height={120}
-      width={150}
-      timeout={3000} //3 secs
-    />
+      color="#b98e32"
+      height={100}
+      width={120}
+      timeout={700} //3 secs
+    /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

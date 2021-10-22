@@ -1,8 +1,14 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+// import { render, screen, fireEvent, getByTestId } from '@testing-library/react';
+// import Travel from '../src/components/Travel';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('should send user to Hotel Phillips book room site', async () => {
+//   render(<Travel />)
+
+//   // Click Book Room button
+
+//   const element = getByTestId('president')
+//   expect(element).toHaveTextContent('Content')
+// // to match the whole content
+//   expect(element).toHave
+  
+

@@ -36,8 +36,8 @@
   grid-row-end: 1;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-left: 13%;
-  margin-right: 13%;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
   border-bottom: 4px double #4a4a4a;
 }
@@ -46,7 +46,6 @@
   margin: auto;
   font-style: italic;
   inline-size: 900px;
-  word-wrap: normal;
   padding-top: 1px;
   letter-spacing: 1.5px;
 }

@@ -1,8 +1,6 @@
-.Countdown {
+.countdown {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   text-align: center;
-  padding-top: 20px;
-  font-size: 22px;
-  font-weight: 400;
 }
