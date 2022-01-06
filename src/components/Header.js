@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Nav } from 'react-bootstrap';
 // import Slide from 'react-reveal/Slide';
 import { Link } from 'react-router-dom';
+import '../css/Queries.css';
 
 
 class Header extends React.Component {

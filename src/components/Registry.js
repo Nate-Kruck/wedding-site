@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header.js';
 import '../css/Registry.css';
+import '../css/Queries.css';
 
 const Registry = () => {
     return (
@@ -13,7 +14,7 @@ const Registry = () => {
                             <text x="50%" y="70%" textAnchor="middle">Coming Soon</text>
                         </svg>
                         </h1>
-                        <p>Check back March 2022 </p>
+                        <p>Check back in March </p>
                 </div>     
         </>
     )

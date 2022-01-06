@@ -3,6 +3,7 @@ import Header from '../components/Header.js';
 import '../css/Travel.css';
 import luggage from '../images/luggage.png';
 import plane from '../images/plane-3.svg';
+import '../css/Queries.css';
 
 class Travel extends React.Component {
 
