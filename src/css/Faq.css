@@ -12,10 +12,10 @@
   src: url(../fonts/text-font.woff2);
 }
 
-@font-face {
+/* @font-face {
   font-family: "cursiveText";
   src: url(../fonts/Blacksword.otf);
-}
+} */
 
 .faq-header h1 {
   font-family: milton;

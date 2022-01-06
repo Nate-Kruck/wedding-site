@@ -10,10 +10,10 @@
   --bs-pink: #dc3545;
 }
 
-@font-face {
+/* @font-face {
   font-family: headerFont;
-  src: url(N:\wedding-site\wedding-site\src\fonts\Blacksword.otf);
-}
+  src: url(../fonts/Blacksword.otf);
+} */
 
 .navbar {
   height: 100%;
