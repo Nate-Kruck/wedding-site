@@ -3,6 +3,7 @@ import '../css/Header.css';
 import Navbar from 'react-bootstrap/Navbar';
 import { Nav } from 'react-bootstrap';
 // import Slide from 'react-reveal/Slide';
+import { Link } from 'react-router-dom';
 
 
 class Header extends React.Component {
@@ -15,12 +16,12 @@ class Header extends React.Component {
                         <Nav fill>
                                 <div className="nav-container">
                                 <Nav.Item className="nav">
-                                        <Nav.Link className="btn-link" href="/">home</Nav.Link>
-                                        <Nav.Link className="btn-link" href="/schedule">schedule</Nav.Link>
-                                        <Nav.Link className="btn-link" href="/travel">travel & accommodations</Nav.Link>
-                                        <Nav.Link className="btn-link" href="/registry">registry</Nav.Link>
-                                        <Nav.Link className="btn-link" href="/faq">faq's</Nav.Link>
-                                        <Nav.Link className="btn-link" href="/photos">photos</Nav.Link>
+                                        <Link className="btn-link" to="/">home</Link>
+                                        <Link className="btn-link" to="/schedule">schedule</Link>
+                                        <Link className="btn-link" to="/travel">travel & accommodations</Link>
+                                        <Link className="btn-link" to="/registry">registry</Link>
+                                        <Link className="btn-link" to="/faq">faq's</Link>
+                                        <Link className="btn-link" to="/photos">photos</Link>
                                 </Nav.Item>
                                 </div>
                         </Nav>
