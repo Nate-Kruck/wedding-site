@@ -1,8 +1,17 @@
-.Countdown {
+.countdown-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-  padding-top: 20px;
-  font-size: 22px;
-  font-weight: 400;
+  align-items: center;
+}
+
+.days-container,
+.hours-container,
+.minutes-container,
+.seconds-container {
+  font-size: 2rem;
+}
+
+.time-text {
+  font-size: 1rem;
 }

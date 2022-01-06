@@ -1,4 +1,3 @@
-// import WCountdown from './components/Countdown.js'
 import Header from './components/Header.js'
 // import './App.css'
 
@@ -10,9 +9,6 @@ function App() {
           <Header />
         </header>
       </div>
-      {/* <div className="Countdown">
-        <WCountdown />
-      </div> */}
     </div>
   );
 }

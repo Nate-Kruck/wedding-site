@@ -1,97 +1,76 @@
 import React from 'react';
-import { CountdownCircleTimer } from 'react-countdown-circle-timer';
-import '../Countdown.css';
+import '../css/Countdown.css';
+import '../css/Home.css';
+// import ReactSelect from 'react-query-selector';
 
-const minuteSeconds = 60;
-const hourSeconds = 3600;
-const daySeconds = 86400;
-
-const timerProps = {
-    isPlaying: true,
-    size: 120,
-    strokeWidth: 6
-};
-
-const renderTime = (dimension, time) => {
-    return (
-        <div className="time-wrapper">
-            <div className="time">{time}</div>
-            <div>{dimension}</div>
-        </div>
-    );
-};
-
-const getTimeSeconds = (time) => (minuteSeconds - time) | 0;
-const getTimeMinutes = (time) => ((time % hourSeconds) / minuteSeconds) | 0;
-const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
-const getTimeDays = (time) => (time / daySeconds) | 0;
+// Getting Wedding Date and Current Date then calculating Time Remaining
+const weddingDay = new Date('July 22, 2022 00:00:00').getTime();
+const currentTime = new Date().getTime();
+const timeRemaining = weddingDay - currentTime;
 
 
-class Timer extends React.Component {
+// Time declarations
+const second = 1000;
+const minute = second * 60;
+const hour = minute * 60;
+const day = hour * 24;
+
+class Countdown extends React.Component {
     
-    render() {
-        
-        const startTime = Date.now() / 1000;
-        const endTime = startTime + 28669308;
-        
-        const remainingTime = endTime - startTime;
-        const days = Math.ceil(remainingTime / daySeconds);
-        const daysDuration = days * daySeconds;
+    // Calculating Time
+    constructor(props) {
+        super(props);
+        this.state = {
+            textDay: Math.floor(timeRemaining / day),
+            textHour: Math.floor((timeRemaining % day) / hour),
+            textMinute: Math.floor((timeRemaining % hour) / minute),
+            textSecond: Math.floor((timeRemaining % minute) / second)
+        }
+}
 
+    componentDidMount() {
+        this.timerID = setInterval(() => this.tick() + 1000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timerID);
+    }
+
+    tick() {
+        this.setState({
+            textDay: Math.floor(timeRemaining / day),
+            textHour: Math.floor((timeRemaining % day) / hour),
+            textMinute: Math.floor((timeRemaining % hour) / minute),
+            textSecond: Math.floor((timeRemaining % minute) / second)
+        })
+    }
+        render() {
         return (
             <>
-                <CountdownCircleTimer
-                {...timerProps}
-                colors={[["#7E2E84"]]}
-                duration={daysDuration}
-                initialRemainingTime={remainingTime}
-                >
-                {({ elapsedTime }) =>
-                renderTime("days", getTimeDays(daysDuration-elapsedTime))}
-                </CountdownCircleTimer>
+            <div className="countdown-container">
+                <div className="days">
+                    <h4 className="days-container">{this.state.textDay}</h4>
+                    <h4 className="time-text">days</h4>
+                </div>
 
-                <CountdownCircleTimer 
-                {...timerProps}
-                colors={[["#D14081"]]}
-                duration={daySeconds}
-                initialRemainingTime={remainingTime % daySeconds}
-                onComplete={(totalElapsedTime) => [
-                    remainingTime - totalElapsedTime > hourSeconds
-                ]}
-                >
-                {({ elapsedTime }) =>
-                renderTime("hours", getTimeHours(daySeconds-elapsedTime))}
-                </CountdownCircleTimer>
+                <div className="hours">
+                    <h4 className="hours-container">{this.state.textHour}</h4>
+                    <h4 className="time-text">hours</h4>
+                </div>
 
-                <CountdownCircleTimer 
-                {...timerProps}
-                colors={[["#F08876"]]}
-                duration={hourSeconds}
-                initialRemainingTime={remainingTime % hourSeconds}
-                onComplete={(totalElapsedTime) => [
-                    remainingTime - totalElapsedTime > minuteSeconds
-                ]}
-                >
-                {({ elapsedTime }) =>
-                renderTime("minutes", getTimeMinutes(hourSeconds-elapsedTime))}
-                </CountdownCircleTimer>
+                <div className="minutes">
+                    <h4 className="minutes-container">{this.state.textMinute}</h4>
+                    <h4 className="time-text">minutes</h4>
+                </div>
 
-                <CountdownCircleTimer 
-                {...timerProps}
-                colors={[["#7E2E84"]]}
-                duration={minuteSeconds}
-                initialRemainingTime={remainingTime % minuteSeconds}
-                onComplete={(totalElapsedTime) => [
-                    remainingTime - totalElapsedTime > 0
-                ]}
-                >
-                {({ elapsedTime }) =>
-                renderTime("seconds", getTimeSeconds(elapsedTime))}
-                </CountdownCircleTimer>
+                <div className="seconds">
+                    <h4 className="seconds-container">{this.state.textSecond}</h4>
+                    <h4 className="time-text">seconds</h4>
+                </div>
+            </div>
             </>
         )
-
     }
 }
 
-export default Timer;
+export default Countdown;

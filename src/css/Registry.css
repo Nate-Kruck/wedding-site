@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "textFont";
+  src: url(../fonts/text-font.woff2);
+}
+
+.registry-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transform: translate(0, 85%);
+
+  /*Firefox*/
+  -moz-transform: translate(0, 85%);
+  /*Microsoft Internet Explorer*/
+  -ms-transform: translate(0, 85%);
+  /*Chrome, Safari*/
+  -webkit-transform: translate(0, 85%);
+  /*Opera*/
+  -o-transform: translate(0, 85%);
+}
+
+.registry-message {
+  /* padding: auto; */
+  font-size: 95px;
+  text-transform: uppercase;
+  line-height: 0.3;
+  color: #fef8e6;
+  -webkit-text-stroke: 1.9px #b98e32;
+}
+
+.registry-container p {
+  font-family: "textFont";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+svg text {
+  text-align: center;
+  color: black;
+  letter-spacing: 1px;
+  stroke: hsl(41, 57%, 46%);
+  /* font-size: 150px; */
+  stroke-width: 1.9px;
+  animation: textAnimate 4.5s infinite alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 65%;
+    stroke-dashoffset: 30%;
+    fill: hsl(41, 57%, 46%, 0);
+  }
+
+  100% {
+    stroke-dasharray: 30% 0;
+    stroke-dashoffset: -30%;
+    fill: #fef8e6;
+  }
+}

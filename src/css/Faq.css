@@ -1,0 +1,88 @@
+:root {
+  --col-gap: 1rem;
+}
+
+@font-face {
+  font-family: "milton";
+  src: url(../fonts/Milton_bold.otf);
+}
+
+@font-face {
+  font-family: "textFont";
+  src: url(../fonts/text-font.woff2);
+}
+
+/* @font-face {
+  font-family: "cursiveText";
+  src: url(../fonts/Blacksword.otf);
+} */
+
+.faq-header h1 {
+  font-family: milton;
+  font-size: 110px;
+}
+
+.faq-header p {
+  font-family: textFont;
+  font-style: italic;
+  inline-size: 700px;
+  word-wrap: normal;
+  padding-top: 1px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.faq-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
+  border-bottom: 4px double #4a4a4a;
+}
+
+/* controls left and right side of Q&A container */
+.container-question,
+.container-answer {
+  display: grid;
+  grid-auto-rows: 1fr;
+  height: 3000px;
+  width: 50%;
+  position: absolute;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.centered-left h3,
+.centered h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+/* controls left side of container*/
+.container-question {
+  color: #000;
+}
+
+/* controls right side of container */
+.container-answer {
+  left: 50%;
+}
+
+.centered-left,
+.centered {
+  text-align: center;
+  font-family: textFont;
+  letter-spacing: 1px;
+  padding: 25% 70px 25% 70px;
+  margin-top: 50px;
+}
+
+.centered-left {
+  border-right: 4px double #4a4a4a;
+}
+
+.centered-left p {
+  font-size: 2.4rem;
+}
