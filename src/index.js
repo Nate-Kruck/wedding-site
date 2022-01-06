@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import Schedule from './components/Schedule';
 import Travel from './components/Travel';
 import Home from './components/Home';
@@ -18,28 +18,32 @@ import Registry from './components/Registry';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+      <Link to='/photos'></Link>
+      <Link to='/schedule'></Link>
+      <Link to='/travel'></Link>
+      <Link to='/faq'></Link>
       <Switch>
-      <Route 
-      path="/photos" 
-      exact
-      component={Photos}/>
-        <Route 
-          path="/schedule"
-          exact 
-          component={Schedule}/>
-        <Route 
-          path="/travel"
-          exact 
-          component={Travel}/>
-        <Route 
+        <Link 
           path="/"
           exact 
           component={Home}/>
-        <Route 
+        <Link 
+          path="/photos" 
+          exact
+          component={Photos}/>
+        <Link 
+          path="/schedule"
+          exact 
+          component={Schedule}/>
+        <Link 
+          path="/travel"
+          exact 
+          component={Travel}/>
+        <Link 
           path="/faq"
           exact 
           component={FaqPage}/>
-        <Route 
+        <Link 
           path="/registry"
           exact 
           component={Registry}/>
