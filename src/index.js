@@ -19,12 +19,30 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-      <Route exact path="/photos" component={Photos}/>
-        <Route exact path="/schedule" component={Schedule}/>
-        <Route exact path="/travel" component={Travel}/>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/faq" component={FaqPage}/>
-        <Route exact path="/registry" component={Registry}/>
+      <Route 
+      path="/photos" 
+      exact
+      component={Photos}/>
+        <Route 
+          path="/schedule"
+          exact 
+          component={Schedule}/>
+        <Route 
+          path="/travel"
+          exact 
+          component={Travel}/>
+        <Route 
+          path="/"
+          exact 
+          component={Home}/>
+        <Route 
+          path="/faq"
+          exact 
+          component={FaqPage}/>
+        <Route 
+          path="/registry"
+          exact 
+          component={Registry}/>
         <App />
       </Switch>
     </Router>
