@@ -7,7 +7,7 @@
     grid-template-rows: repeat(2, 2fr);
     text-align: center;
     margin: 5px;
-    font-size: 0.7rem;
+    font-size: 25px !important;
   }
 
   .photo-header p:nth-of-type(1) {
@@ -35,7 +35,11 @@
   .travel-container {
     display: flex !important;
     flex-direction: column;
-    padding: 5px;
+    padding: 20px;
+  }
+
+  .big-header {
+    font-size: 80px !important;
   }
 
   .travel-header p:nth-of-type(1) {
@@ -43,6 +47,27 @@
     word-wrap: normal;
     padding-top: 1px;
     letter-spacing: 1.5px;
+    font-size: 12px;
+  }
+
+  .airport p:nth-of-type(2) {
+    font-style: italic;
+    word-wrap: normal;
+    padding-top: 1px;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+  }
+
+  .hotel-1,
+  .hotel-2 {
+    border-bottom: 4px double #4a4a4a;
+    border-right: none !important;
+  }
+
+  .hotel-1,
+  .hotel-2,
+  .hotel-3 p {
+    font-size: 12px;
   }
 
   .registry-container h1 {
@@ -76,5 +101,10 @@
   .centered {
     padding: 2px !important;
     letter-spacing: normal !important;
+  }
+
+  .home-header {
+    text-align: center;
+    font-size: 55px !important;
   }
 }

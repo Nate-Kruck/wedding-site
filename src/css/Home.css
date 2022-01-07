@@ -1,14 +1,15 @@
 /* body {
   font-family: "Lato", sans-serif;
 } */
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  /* padding: 15px; */
+@font-face {
+  font-family: "milton";
+  src: url(../fonts/Milton_bold.otf);
 }
 
 .home-header {
+  font-size: 110px;
+  font-family: "milton";
+  padding: 15px;
   display: flex;
   align-items: center;
   flex-direction: column;
