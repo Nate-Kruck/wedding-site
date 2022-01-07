@@ -28,6 +28,14 @@ class Countdown extends React.Component {
         }
 }
 
+tick() {
+    this.setState({
+        textDay: Math.floor(timeRemaining / day),
+        textHour: Math.floor((timeRemaining % day) / hour),
+        textMinute: Math.floor((timeRemaining % hour) / minute),
+        textSecond: Math.floor((timeRemaining % minute) / second)
+    })
+}
     componentDidMount() {
         this.timerID = setInterval(() => this.tick() + 1000);
     }
@@ -36,14 +44,6 @@ class Countdown extends React.Component {
         clearInterval(this.timerID);
     }
 
-    tick() {
-        this.setState({
-            textDay: Math.floor(timeRemaining / day),
-            textHour: Math.floor((timeRemaining % day) / hour),
-            textMinute: Math.floor((timeRemaining % hour) / minute),
-            textSecond: Math.floor((timeRemaining % minute) / second)
-        })
-    }
         render() {
         return (
             <>
