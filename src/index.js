@@ -16,7 +16,7 @@ import Registry from './components/Registry';
 // Loader uses hearts for loading between tabs. 
 
 ReactDOM.render(
-  <React.StrictMode>
+  
     <Router>
       {/* <Link to='/photos'>photos</Link>
       <Link to='/schedule'>schedule</Link>
@@ -49,17 +49,7 @@ ReactDOM.render(
           component={Registry}/>
         <App />
       </Switch>
-    </Router>
-
-    {/* <Loader
-      className="loader"
-      type="Hearts"
-      color="#b98e32"
-      height={100}
-      width={120}
-      timeout={700} //3 secs
-    /> */}
-  </React.StrictMode>,
+    </Router>,
   document.getElementById('root')
 );
 
