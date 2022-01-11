@@ -1,9 +1,9 @@
 import React from 'react';
-import Album from '../album/photoAlbum.js';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header.js';
 import '../css/Photos.css';
 import '../css/Queries.css';
-import Item from '../hooks/photoItem.js';
+import Ephoto from '../images/president.jpg'
 
 const Photos = () => {
     return (
@@ -14,7 +14,12 @@ const Photos = () => {
                     </div>
                 <div className="photo-container">
                         {/* <p>We look forward to sharing all the photos from our honeymoon and wedding weekend. Please check back here in October 2022. Keep an eye out fot the email notification when photos are posted. <br/><b>Don't forget to use our hashtag #AboutKruckinTime and tag us!</b></p> */}
-                        {Album.map((item, i) => <Item key={i} item={item} />)}
+                        <Link to="/engagement-photos">
+                        <img className="album-image" src={Ephoto} alt='engagement photos'/>
+                        </Link><p>Engagement Photos</p>
+                        <Link to="/engagement-photos">
+                        <img className="album-image" src={Ephoto} alt='wedding photos'/>
+                        </Link><p>Wedding Photos</p>
                 </div>
                 
         </>

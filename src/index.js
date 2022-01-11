@@ -12,6 +12,7 @@ import Photos from './components/Photos';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import FaqPage from './components/FaqPage';
 import Registry from './components/Registry';
+import Ephotos from './components/Engagement';
 
 // Loader uses hearts for loading between tabs. 
 
@@ -47,6 +48,10 @@ ReactDOM.render(
           path="/registry"
           exact 
           component={Registry}/>
+        <Route
+          path="/engagement-photos"
+          exact
+          component={Ephotos}/>
         <App />
       </Switch>
     </Router>,
