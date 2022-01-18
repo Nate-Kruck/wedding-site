@@ -1,7 +1,3 @@
-:root {
-  --col-gap: 1rem;
-}
-
 @font-face {
   font-family: "milton";
   src: url(../fonts/Milton_bold.otf);
@@ -18,6 +14,7 @@
 } */
 
 .faq-header h1 {
+  padding-top: 75px;
   font-family: milton;
   font-size: 110px;
 }

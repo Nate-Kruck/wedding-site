@@ -1,4 +1,14 @@
-@media (max-width: 500px) {
+@font-face {
+  font-family: "textFont";
+  src: url(../fonts/text-font.woff2);
+}
+
+@font-face {
+  font-family: "rock";
+  src: url(../fonts/Rockabilly.ttf);
+}
+
+@media (max-width: 850px) {
   .photo-container {
     display: grid;
     row-gap: 20px;
@@ -14,14 +24,65 @@
     width: 100%;
   }
 
+  .navbar-toggler {
+    border: 0.2px solid rgb(187, 187, 187) !important;
+    padding: 0.65rem 1rem !important;
+  }
+
   .nav {
     width: 100%;
     justify-content: center;
+    /* display: none; */
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .btn-link {
     font-size: 12px;
     justify-content: center;
+  }
+
+  .home-grid {
+    display: flex !important;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    width: 95%;
+    max-height: 40%;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px !important;
+  }
+
+  .home-grid p {
+    font-size: 33px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .home-header {
+    font-size: 70px !important;
+    padding: 0 !important;
+    text-align: center !important;
+    font-family: rock !important;
+  }
+
+  .home-container {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    height: 100%;
+    width: 100%;
+    text-align: center;
   }
 
   .schedule-container {
@@ -101,10 +162,5 @@
   .centered {
     padding: 2px !important;
     letter-spacing: normal !important;
-  }
-
-  .home-header {
-    text-align: center;
-    font-size: 55px !important;
   }
 }

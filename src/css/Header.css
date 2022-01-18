@@ -1,92 +1,48 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  /* overflow: hidden; */
-  /* font-family: "Verdana", sans-serif; */
-}
-
-:root {
-  --bs-pink: #dc3545;
-}
-
 /* @font-face {
-  font-family: headerFont;
-  src: url(../fonts/Blacksword.otf);
+  font-family: cheri;
+  src: url(../fonts/cheri.TTF);
 } */
+.me-auto .navbar .nav {
+  width: 50%;
+}
 
-.navbar {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  background: url("../images/arches.png");
-  background-color: #fef8e6;
-  border-bottom: 4px double #4a4a4a;
-  line-height: 2.5rem;
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px !important;
+}
+
+.navbar-toggler {
+  border: 0.2px solid rgb(187, 187, 187) !important;
+  padding: 1.15rem 1.5rem;
 }
 
 .btn-link {
-  display: block;
+  /* font-family: fantasy; */
   height: 100%;
-  font-weight: 650;
-  font-size: 16px;
-  position: relative;
-  display: flex;
+  font-size: 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  margin-left: 15px;
-  color: black;
-}
-
-.btn-link:hover {
-  color: red;
-  text-decoration: none;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  font-weight: 600;
-  color: #414141;
+  color: #000000;
+  letter-spacing: 1px;
+  width: 50%;
+  margin-top: 20px !important;
 }
 
 /* Question for Willow */
 /* flat or transparent background for nav button hover */
-.navbar-light .navbar-nav .btn-link:hover {
-  font-weight: 730;
-  box-shadow: 0px 0px 30px rgba(175, 38, 255, 0.329);
-  color: #414141;
-  background-color: #fef8e6;
+.btn-link:hover {
+  font-weight: bold;
+  box-shadow: 0px 0px 30px rgba(175, 38, 255, 0.37);
+  color: rgb(175, 38, 255) !important;
 }
 
-.btn-link::after,
-.btn-link::before {
-  content: "";
-  position: absolute;
-  display: block;
-  border: 0px double transparent;
+.sticky-top {
+  top: 20px !important;
 }
 
-.btn-link::after {
-  width: 0%;
-  height: 80%;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  transition: all 0.5s ease;
-}
-
-.btn-link::before {
-  width: 110%;
-  height: 0%;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-  transition: all 0.5s ease;
-}
-
-.btn-link:hover::before {
-  height: 80%;
-}
-
-.btn-link:hover::after {
-  width: 110%;
-}
+/* .nav-link {
+  background-color: white;
+} */

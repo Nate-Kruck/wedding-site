@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Schedule from './components/Schedule';
 import Travel from './components/Travel';
 import Home from './components/Home';
@@ -12,11 +12,12 @@ import Photos from './components/Photos';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import FaqPage from './components/FaqPage';
 import Registry from './components/Registry';
+import Ephotos from './components/Engagement';
 
 // Loader uses hearts for loading between tabs. 
 
 ReactDOM.render(
-  <React.StrictMode>
+  
     <Router>
       {/* <Link to='/photos'>photos</Link>
       <Link to='/schedule'>schedule</Link>
@@ -47,19 +48,13 @@ ReactDOM.render(
           path="/registry"
           exact 
           component={Registry}/>
+        <Route
+          path="/engagement-photos"
+          exact
+          component={Ephotos}/>
         <App />
       </Switch>
-    </Router>
-
-    {/* <Loader
-      className="loader"
-      type="Hearts"
-      color="#b98e32"
-      height={100}
-      width={120}
-      timeout={700} //3 secs
-    /> */}
-  </React.StrictMode>,
+    </Router>,
   document.getElementById('root')
 );
 

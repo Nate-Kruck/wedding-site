@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "rock";
+  src: url(../fonts/Rockabilly.ttf);
+}
+
 .countdown-container {
+  font-family: "rock";
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -9,9 +15,9 @@
 .hours-container,
 .minutes-container,
 .seconds-container {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .time-text {
-  font-size: 1rem;
+  font-size: 2rem;
 }

@@ -14,32 +14,48 @@
 }
 
 .photo-container {
-  display: grid;
-  row-gap: 20px;
-  column-gap: 20px;
-  grid-template-columns: repeat(3, 2fr);
-  grid-template-rows: repeat(2, 2fr);
-  text-align: center;
-  margin: 5px;
-}
-
-.photo-header h1 {
-  font-family: milton;
-  color: #414141;
-  font-size: 110px;
-}
-
-.photo-header {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  width: fit-content;
+  margin: 20px auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
-  border-bottom: 4px double #4a4a4a;
+  /* background-color: grey; */
+  border-radius: 5px;
+}
+
+.album-image {
+  width: 70%;
+  filter: none;
+  transition-duration: 0.3s;
+  max-width: 100%;
+  cursor: pointer;
+  display: block;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  margin: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: solid 2.5px #efefef;
+}
+
+.photo-container p {
+  margin-top: auto;
+  font-size: 20px;
+}
+
+.photo-header h1 {
+  padding-top: 125px !important;
+  font-family: milton;
+  color: #414141;
+  font-size: 110px;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .photo-header p:nth-of-type(1) {
@@ -49,4 +65,45 @@
   font-size: 0.9rem;
   padding-top: 1px;
   letter-spacing: 1.5px;
+}
+
+/* .e-album-image {
+  width: calc(33% - 6px);
+  filter: none;
+  transition-duration: 0.3s;
+  max-width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin: 4px;
+} */
+
+.album-image:hover {
+  width: 100%;
+  border: solid 1px #ccc;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.e-photo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  margin: 15px;
+}
+
+.e-photo-container img {
+  width: calc(93% - 6px);
+  border: 2px solid #ccc;
+  filter: none;
+  max-width: 100%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.39);
+  height: auto;
+  padding: 0px 0px 0px 0px;
 }

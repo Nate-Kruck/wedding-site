@@ -1,17 +1,51 @@
-/* body {
-  font-family: "Lato", sans-serif;
-} */
+#root {
+  height: 1px !important;
+}
+
 @font-face {
   font-family: "milton";
   src: url(../fonts/Milton_bold.otf);
 }
 
+@font-face {
+  font-family: "rock";
+  src: url(../fonts/Rockabilly.ttf);
+}
+
+@font-face {
+  font-family: "textFont";
+  src: url(../fonts/text-font.woff2);
+}
+
 .home-header {
-  font-size: 110px;
-  font-family: "milton";
-  padding: 15px;
+  font-size: 90px;
+  font-family: textFont;
+  text-align: left !important;
+}
+
+.c-soon-header {
+  font-size: 3rem;
+  text-align: center;
+  font-family: textFont;
+  text-transform: none;
+}
+
+.home-container {
+  background: url("../images/c-color-6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 65px;
+}
+
+.home-grid {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
+  padding: 70px;
+}
+
+.p-quadrant-2 {
+  font-family: textFont;
 }
