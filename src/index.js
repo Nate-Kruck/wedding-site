@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Schedule from './components/Schedule';
 import Travel from './components/Travel';
 import Home from './components/Home';

@@ -12,9 +12,9 @@ const Ephotos = () => {
                     <div className="photo-header">
                         <h1>Engagement Photos</h1>
                     </div>
-                <div className="e-photo-container">
-                    {Album.map((item, i) => <Item key={i} item={item} />)}
-                </div>
+                    <div className="e-photo-container">
+                        {Album.map((item, i) => <Item key={i} item={item} />)}
+                    </div>
                 
         </>
     )

@@ -1,21 +1,48 @@
+import bw1 from '../engagementImages/bw-1.jpg';
+import bw2 from '../engagementImages/bw-2.jpg';
+
 const Album = [
     {
-        image: 'https://i.ibb.co/FJyHtpC/bw-1.jpg',
+        image: bw1,
     },
     {
-        image: 'https://i.ibb.co/FJyHtpC/bw-1.jpg',
+        image: bw2,
     },
     {
-        image: 'https://i.ibb.co/FJyHtpC/bw-1.jpg',
+        image: bw1,
     },
     {
-        image: 'https://i.ibb.co/FJyHtpC/bw-1.jpg',
+        image: bw2,
     },
     {
-        image: 'https://i.ibb.co/FJyHtpC/bw-1.jpg',
+        image: bw1,
     },
     {
-        image: 'https://i.ibb.co/FJyHtpC/bw-1.jpg',
+        image: bw2,
+    },
+    {
+        image: bw1,
+    },
+    {
+        image: bw2,
+    },
+    {
+        image: bw1,
+    },
+    {
+        image: bw2,
+    },
+    {
+        image: bw1,
+    },
+    {
+        image: bw2,
+    },
+    {
+        image: bw1,
+    },
+    {
+        image: bw2,
     },
 ]
 

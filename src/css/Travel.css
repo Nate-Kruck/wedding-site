@@ -13,19 +13,15 @@
   src: url(../fonts/Milton_bold.otf);
 }
 
-html {
-  box-sizing: border-box;
-  height: 100%;
-}
-
 body {
   /* background: #ccc; */
-  background: #fef8e6;
+  background: white;
   line-height: 1.3;
   /* color: #414141; */
 }
 
 .travel-container {
+  padding-top: 75px;
   display: grid;
   row-gap: 20px;
   column-gap: 10px;
@@ -53,7 +49,8 @@ body {
   grid-row-end: 2;
   /* margin-left: 13%;
   margin-right: 13%; */
-  padding-top: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   text-align: center;
 }
 
