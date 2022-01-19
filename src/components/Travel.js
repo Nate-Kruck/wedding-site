@@ -28,7 +28,7 @@ class Travel extends React.Component {
                 <div className="travel-container">
                     <div className="travel-header">
                         <h1 className='big-header'>Travel <span className="small-character">& </span>Accommodations</h1>
-                        <p>For your convenience, we have three wonderful hotels to choose from. Each hotel has a room block under "Garcia-Kruckenberg Wedding" and include discounted rates. <br/> <strong>Click on links below to book your discounted room.</strong> </p>
+                        <p>Each hotel has a room block under "Garcia-Kruckenberg Wedding." <br/> Please note, room blocks are limited and are first come first serve.  <br/> <strong>Click on links below to book your discounted room.</strong> </p>
                     </div>
 
                     {/* Airport Info */}
