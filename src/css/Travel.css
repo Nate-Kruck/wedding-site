@@ -61,9 +61,9 @@ img {
 }
 
 .travel-header h1 {
-  font-family: milton;
+  font-family: textFont;
   color: #414141;
-  font-size: 110px;
+  font-size: 75px;
 }
 
 .airport h2 {
@@ -72,10 +72,13 @@ img {
 
 .travel-header p:nth-of-type(1) {
   margin: auto;
+  /* font-family: textFont; */
   font-style: italic;
+  font-size: 20px;
   word-wrap: normal;
-  padding-top: 1px;
+  padding-top: 10px;
   letter-spacing: 1.5px;
+  width: 65%;
 }
 
 .airport p:nth-of-type(1) {
