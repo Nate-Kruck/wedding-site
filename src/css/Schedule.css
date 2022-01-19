@@ -25,9 +25,9 @@
 }
 
 .schedule-header h1 {
-  font-family: milton;
+  font-family: textFont;
   color: #414141;
-  font-size: 110px;
+  font-size: 75px;
 }
 
 .schedule-header {
@@ -50,4 +50,5 @@
   font-size: 0.9rem;
   padding-top: 1px;
   letter-spacing: 1.5px;
+  font-size: 20px;
 }

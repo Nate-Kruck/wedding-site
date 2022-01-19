@@ -1,3 +1,7 @@
+#root {
+  padding: 0 auto !important;
+}
+
 @font-face {
   font-family: "textFont";
   src: url(../fonts/text-font.woff2);
@@ -48,23 +52,23 @@
 
   .home-grid {
     display: flex !important;
-    backdrop-filter: blur(2px);
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
-    -webkit-backdrop-filter: blur(2px);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);
     backdrop-filter: blur(2px);
-    width: 95%;
-    max-height: 40%;
+    width: 100%;
+    max-height: 60%;
     flex-direction: column;
     align-content: space-around;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    padding: 70px !important;
+    padding: 1px !important;
+    color: white;
   }
 
   .home-grid p {
     font-size: 33px;
-    color: black;
+    color: white;
     font-weight: bolder;
   }
 

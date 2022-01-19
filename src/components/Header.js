@@ -9,7 +9,7 @@ import '../css/Queries.css';
 
 class Header extends React.Component {
         render() {
-                return <Navbar collapseOnSelect fixed='top' expand="true" variant="light" bg='light' sticky='top'>
+                return <Navbar collapseOnSelect fixed='top' expand="true" variant="light" bg='light'>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
