@@ -63,22 +63,20 @@ img {
 .travel-header h1 {
   font-family: textFont;
   color: #414141;
-  font-size: 75px;
+  font-size: 35px !important;
+  /* width: 85vw !important; */
 }
 
 .airport h2 {
   font-family: textFont;
 }
 
-.travel-header p:nth-of-type(1) {
+.travel-header p {
   margin: auto;
-  /* font-family: textFont; */
-  font-style: italic;
   font-size: 20px;
   word-wrap: normal;
   padding-top: 10px;
   letter-spacing: 1.5px;
-  width: 65%;
 }
 
 .airport p:nth-of-type(1) {

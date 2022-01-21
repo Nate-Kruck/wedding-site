@@ -1,7 +1,7 @@
-/* @font-face {
-  font-family: cheri;
-  src: url(../fonts/cheri.TTF);
-} */
+@font-face {
+  font-family: edo;
+  src: url(../fonts/edosz.ttf);
+}
 .me-auto .navbar .nav {
   width: 50%;
 }
@@ -18,9 +18,10 @@
 }
 
 .btn-link {
-  /* font-family: fantasy; */
+  font-family: textFont;
+  font-weight: bold;
   height: 100%;
-  font-size: 15px;
+  font-size: 18px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -34,9 +35,9 @@
 /* Question for Willow */
 /* flat or transparent background for nav button hover */
 .btn-link:hover {
-  font-weight: lighter;
+  font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: rgb(240, 72, 164);
 }
 
 .sticky-top {
