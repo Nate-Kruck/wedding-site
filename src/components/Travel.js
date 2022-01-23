@@ -8,6 +8,7 @@ import '../css/Queries.css';
 class Travel extends React.Component {
 
     // click events for hotel book now buttons
+    // Need Hilton link - the only link I am currently missing
     hiltonClick() {
         window.open("https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MKCCUQQ&arrivalDate=2022-07-20&departureDate=2022-07-24&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink")
     }
