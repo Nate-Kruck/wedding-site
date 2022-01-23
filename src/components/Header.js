@@ -16,12 +16,12 @@ class Header extends React.Component {
                 <Nav className="me-auto">
       
                         <Link className="btn-link" to="/">Home</Link>
-                        <Link className="btn-link" to="/schedule">Shedule</Link>
+                        <Link className="btn-link btn-coming-soon" to="/schedule">Shedule <p>(Coming soon)</p></Link>
                         <Link className="btn-link" to="travel">Travel</Link>
                         
                         <Link className="btn-link" to="/registry">Registry</Link>
                         <Link className="btn-link" to="/faq">Faq's</Link>
-                        <Link className="btn-link" to="/photos">Photo's</Link>
+                        <Link className="btn-link btn-coming-soon" to="/photos">Photo's <p>(Coming soon)</p></Link>
                         
                 </Nav>
                 </Navbar.Collapse>
