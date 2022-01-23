@@ -51,7 +51,6 @@
   .home-grid {
     display: flex !important;
     background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);
     width: 100%;
     flex-direction: column !important;
@@ -59,7 +58,7 @@
     justify-content: flex-end !important;
     flex-wrap: wrap;
     color: white;
-    padding: 10px !important;
+    padding: 40px !important;
   }
 
   .home-grid p {
@@ -189,5 +188,9 @@
   .centered-left,
   .centered {
     padding: 10px !important;
+  }
+
+  footer {
+    font-size: 12px;
   }
 }
