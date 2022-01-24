@@ -27,10 +27,12 @@
 }
 
 .home-container {
-  background: url("../images/c-color-8.jpg");
-  background-repeat: no-repeat;
+  background: url(../images/c-color-8.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: 20% 30%;
+  background-position: center;
   height: 100vh;
   padding-top: 65px;
 }

@@ -10,11 +10,11 @@ class Travel extends React.Component {
     // click events for hotel book now buttons
     // Need Hilton link - the only link I am currently missing
     hiltonClick() {
-        window.open("https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=MKCCUQQ&groupCode=GKK&arrivaldate=2022-07-20&departuredate=2022-07-24&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT")
+        window.open("https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hilton.com%2Fen%2Fbook%2Freservation%2Fdeeplink%2F%3Fctyhocn%3DMCIPRHF%26groupCode%3DGKW22%26arrivaldate%3D2022-07-21%26departuredate%3D2022-07-24%26cid%3DOM%2CWW%2CHILTONLINK%2CEN%2CDirectLink%26fromId%3DHILTONLINKDIRECT&data=04%7C01%7Ckeyli.kamin%40hilton.com%7C8df14026ce174b177b5508d9d5362626%7C660292d2cfd54a3db7a7e8f7ee458a0a%7C0%7C0%7C637775250847709548%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=TBba9%2FKvK%2BOZPx0o8mgRnIxPX6f4A3cIYiw7m2hR1fg%3D&reserved=0")
     }
 
     phillipClick() {
-        window.open("https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MKCCUQQ&arrivalDate=2022-07-20&departureDate=2022-07-24&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink")
+        window.open("https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=MKCCUQQ&groupCode=GKK&arrivaldate=2022-07-20&departuredate=2022-07-24&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT")
     }
 
     museumClick() {
