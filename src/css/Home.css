@@ -28,19 +28,21 @@
 
 .home-container {
   background: url(../images/c-color-8.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   padding-top: 65px;
+  /* width: 100%; */
+  min-height: 700px;
+  color: papayawhip;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
 }
 
 .home-grid {
+  margin-top: 400px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   font-family: textFont;
   /* color: #f8f9fa; */
@@ -48,14 +50,4 @@
 
 .p-quadrant-2 {
   font-family: textFont;
-}
-
-footer {
-  /* position: fixed; */
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background-color: transparent;
-  color: black;
-  text-align: center;
 }

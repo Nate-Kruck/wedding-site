@@ -45,6 +45,6 @@
   color: rgb(240, 72, 164);
 }
 
-.sticky-top {
-  top: 20px !important;
+.fixed-top {
+  position: sticky !important;
 }
