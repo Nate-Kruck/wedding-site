@@ -16,7 +16,7 @@
 .home-header {
   font-size: 90px;
   font-family: textFont;
-  text-align: left !important;
+  text-align: left;
 }
 
 .c-soon-header {

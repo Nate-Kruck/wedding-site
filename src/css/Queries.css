@@ -51,39 +51,50 @@
 
   .home-grid {
     display: flex !important;
-    /* background-color: rgba(255, 255, 255, 0.3); */
-    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent); */
     width: 100%;
     flex-direction: column !important;
-    align-content: space-around;
+    align-content: space-around !important;
     justify-content: flex-end !important;
     flex-wrap: wrap;
-    color: white;
-    padding: 40px !important;
-    /* margin-bottom: 430px; */
+    color: black !important;
+    /* padding: 40px !important; */
   }
 
   .home-grid p {
     font-size: 32px;
-    color: white;
-    font-weight: bolder;
+    color: black;
   }
 
   .home-header {
     font-size: 60px !important;
-    padding: 0 !important;
     text-align: center !important;
+    line-height: 50px;
+  }
+
+  .c-soon-header {
+    font-family: sans-serif !important;
+    font-size: 22px !important;
+    width: 100%;
   }
 
   .home-container {
+    background: url(../images/c-color-phone-1.jpg) !important;
+    background-position: center !important;
     background-size: 70vh !important;
     background-repeat: no-repeat !important;
     display: flex;
     flex-direction: column !important;
-    justify-content: flex-end !important;
+    justify-content: flex-start !important;
     align-items: center !important;
     text-align: center;
     width: 100%;
+    color: black !important;
+  }
+
+  .p-quadrant-2 {
+    font-size: 22px !important;
+    font-family: sans-serif !important;
+    text-transform: uppercase !important;
   }
 
   .schedule-container {
