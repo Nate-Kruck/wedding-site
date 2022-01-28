@@ -31,21 +31,21 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  padding-top: 65px;
-  /* width: 100%; */
-  min-height: 700px;
-  color: papayawhip;
-  text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+  /* padding-top: 65px; */
+  margin-right: auto;
+  color: white;
 }
 
 .home-grid {
-  margin-top: 400px;
+  /* margin-top: 400px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-family: textFont;
   /* color: #f8f9fa; */
+  color: black;
+  margin-left: auto;
 }
 
 .p-quadrant-2 {
