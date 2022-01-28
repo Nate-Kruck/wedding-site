@@ -9,7 +9,7 @@ const Home = () => {
             <Header />
                 <div className="home-container">
                     <div className='home-grid'>
-                    <p className='c-soon-header'>7 | 22 | 22</p>
+                    <p className='c-soon-header'>7 | 22 | 22 </p>
                     <h1 className="home-header">
                         Willow 
                         <br/>
