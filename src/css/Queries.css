@@ -55,9 +55,8 @@
     flex-direction: column !important;
     align-content: space-around !important;
     justify-content: flex-end !important;
-    flex-wrap: wrap;
     color: black !important;
-    /* padding: 40px !important; */
+    padding: 40px !important;
   }
 
   .home-grid p {
@@ -69,12 +68,14 @@
     font-size: 60px !important;
     text-align: center !important;
     line-height: 50px;
+    margin: 15px !important;
   }
 
   .c-soon-header {
     font-family: sans-serif !important;
     font-size: 22px !important;
     width: 100%;
+    margin: 5px !important;
   }
 
   .home-container {
@@ -95,6 +96,7 @@
     font-size: 22px !important;
     font-family: sans-serif !important;
     text-transform: uppercase !important;
+    margin: 5px !important;
   }
 
   .schedule-container {
