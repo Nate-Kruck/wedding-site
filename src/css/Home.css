@@ -27,23 +27,19 @@
 }
 
 .home-container {
-  background: url(../images/c-color-8.jpg);
+  background: url(../images/c-color-home.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  /* padding-top: 65px; */
-  margin-right: auto;
+  height: 1500px;
   color: white;
 }
 
 .home-grid {
-  /* margin-top: 400px; */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   font-family: textFont;
-  /* color: #f8f9fa; */
   color: black;
   margin-left: auto;
 }

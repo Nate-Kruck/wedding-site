@@ -51,17 +51,18 @@
 
   .home-grid {
     display: flex !important;
+    height: 100vh !important;
     width: 100%;
     flex-direction: column !important;
     align-content: space-around !important;
     justify-content: flex-end !important;
-    color: black !important;
+    color: #fff !important;
     padding: 40px !important;
   }
 
   .home-grid p {
     font-size: 32px;
-    color: black;
+    color: #fff;
   }
 
   .home-header {
@@ -76,6 +77,7 @@
     font-size: 22px !important;
     width: 100%;
     margin: 5px !important;
+    color: #fff;
   }
 
   .home-container {
@@ -89,7 +91,8 @@
     align-items: center !important;
     text-align: center;
     width: 100%;
-    color: black !important;
+    height: 100vh !important;
+    /* color: #fff !important; */
   }
 
   .p-quadrant-2 {
