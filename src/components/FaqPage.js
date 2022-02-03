@@ -47,29 +47,29 @@ const FaqPage = () => {
                 <div className="container-answer">
 
                     <div className="centered">
-                        <p>The dress code for our wedding is semi-formal/cocktail attire. Consider this a chance to dress up!</p>
+                        <p>The dress code for our wedding is semi-formal/cocktail attire.</p>
                     </div>
                     <div className="centered">
                         <p>We cannot guarentee a plus one at this time due to limited seating. We will let you know closer to the wedding.</p>
                     </div>
                     <div className="centered">
-                        <p>We have a pre-reception cocktail hour in the mezzanine level above the lobby of the Hilton President Hotel beginning at 5:00pm. Reception doors open at 6:00pm. </p>
+                        <p>There will be a pre-reception cocktail hour in the mezzanine level of the Hilton President Hotel beginning at 5:00pm. <br/>Reception doors open at 6:00pm. </p>
                     </div>
                     <div className="centered">
                         <p>Yes! On Thursday, July 21st, we have an optional cocktail gathering at the <a href='https://www.ps1931.com/' target='blank' >Hotel Phillips speak easy lounge</a>, where any guest can spend some extra time with the couple before the big day. </p>
                     </div>
                     <div className="centered">
-                        <p>Hot and muggy AF. <br/> Fortunately, everything will be indoors.</p>
+                        <p>Hot and muggy. <br/> Fortunately, everything will be indoors.</p>
                     </div>
                     <div className="centered">
-                        <p>Yes. We offer an
-                             open-bar starting with the cocktail hour following the ceremony and dinner will start at approximetly 6:20pm.</p>
+                        <p>Yes. There will be an
+                             open-bar starting at 5:00pm and a full-course dinner starting at approximetly 6:20pm.</p>
                     </div>
                     <div className="centered">
                         <p>We ask that for the ceremony, all phones remain in pockets/purses and kept on silent for the duration of the ceremony. We have two amazing photographers and a talented videographer to capture the best moments for you.</p>
                     </div>
                     <div className="centered">
-                        <p>Hot and muggy AF. <br/> Fortunately, everything will be indoors.</p>
+                        <p>Hot and muggy. <br/> Fortunately, everything will be indoors.</p>
                     </div>
                 </div>
         </>
