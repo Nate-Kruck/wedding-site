@@ -5,4 +5,4 @@ I created a website for my upcoming wedding in July, 2022. This is a React app t
 
 ## Mobile Friendly?
 
-Yes! I taught myself mobile friendly prinicples in order to create a comfortable user experience on smaller screens.
+Yes! I taught myself mobile friendly principles in order to create a comfortable user experience on smaller screens.
