@@ -148,13 +148,15 @@
     font-size: 12px;
   }
 
-  .registry-container h1 {
+  .registry-header {
     /* padding: auto; */
-    font-size: 45px;
+    font-size: 60px !important;
   }
 
-  .registry-container p:nth-child(2) {
-    font-size: 18px;
+  .registry-links img {
+    height: 180px !important;
+    width: 180px !important;
+    margin: 20px !important;
   }
 
   .faq-header {
