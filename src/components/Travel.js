@@ -44,7 +44,7 @@ class Travel extends React.Component {
                     <div className="hotel-1">
                         <img alt="luggage" src={luggage}/>
                         <h2>Hilton President</h2>
-                            <p>Hotel</p>
+                            <p>$179</p>
                             <p>1329 Baltimore Avenue <br/> Kansas City, MO 64105</p>
                             <p>(816) 221-9490</p>
                             <p>Location of wedding reception.</p>
@@ -58,7 +58,7 @@ class Travel extends React.Component {
                     <div className="hotel-2">
                         <img alt="luggage" src={luggage}/>
                         <h2>Hotel Phillips</h2>
-                            <p>Hotel</p>
+                            <p>$139</p>
                             <p>106 W 12th Street <br/> Kansas City, MO 64105</p>
                             <p>(816) 221-7000</p>
                             <p>Three minute drive from the reception</p>
@@ -72,7 +72,7 @@ class Travel extends React.Component {
                     <div className="hotel-3">
                         <img alt="luggage" src={luggage}/>
                         <h2>21C Museum Hotel</h2>
-                            <p>Hotel</p>
+                            <p>$149</p>
                             <p>219 W 9th Street <br/> Kansas City, MO 64105</p>
                             <p>(816) 443-4200</p>
                             <p>Three minute drive from the reception</p>
