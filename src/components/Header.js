@@ -20,7 +20,6 @@ class Header extends React.Component {
     <Nav className="me-auto">
 
             <Link className="btn-link" to="/">Home</Link>
-            <Link className="btn-link btn-coming-soon" to="/schedule">Schedule <p>(Coming soon)</p></Link>
             <Link className="btn-link" to="travel">Travel</Link>
             
             <Link className="btn-link" to="/registry">Registry</Link>
