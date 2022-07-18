@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header.js';
 import '../css/Photos.css';
 import '../css/Queries.css';
-import Ephoto from '../images/president.jpg'
+// import Ephoto from '../images/president.jpg'
 
 const Photos = () => {
     return (
@@ -18,7 +18,7 @@ const Photos = () => {
                         <img className="album-image" src='https://i.ibb.co/FJyHtpC/bw-1.jpg' alt='engagement photos'/>
                         </Link><p>Engagement Photos</p>
                         <Link to="/wedding-photos">
-                        <img className="album-image" src={Ephoto} alt='wedding photos'/>
+                        {/* <img className="album-image" src={Ephoto} alt='wedding photos'/> */}
                         </Link><p>Wedding Photos</p>
                 </div>
                 

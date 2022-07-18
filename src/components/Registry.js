@@ -4,7 +4,6 @@ import '../css/Registry.css';
 import '../css/Queries.css';
 import crateAndBarrel from '../images/crate-barrel-logo.png';
 import bedBathBeyondImage from '../images/bed-bath-beyond.png';
-import target from '../images/target.jpeg';
 
 class Registry extends React.Component {
 
@@ -31,7 +30,6 @@ targetLink() {
             <div className='registry-links'>
               <img src={crateAndBarrel} className="the-barrel" alt="crate barrel" onClick={this.crateAndBarrelLink} />
               <img src={bedBathBeyondImage} alt="bed beyond" onClick={this.bedBathBeyond} />
-              {/* <img src={target} alt="target" onClick={this.targetLink} /> */}
             </div>
           </div>
       </>
