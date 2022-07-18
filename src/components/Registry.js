@@ -4,7 +4,6 @@ import '../css/Registry.css';
 import '../css/Queries.css';
 import crateAndBarrel from '../images/crate-barrel-logo.png';
 import bedBathBeyondImage from '../images/bed-bath-beyond.png';
-import target from '../images/target.jpeg';
 
 class Registry extends React.Component {
 
