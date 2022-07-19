@@ -80,7 +80,7 @@
   }
 
   .home-container {
-    background: url(../images/schedule.jpg) !important;
+    background: url(../images/reception.png) !important;
     background-position: center !important;
     background-size: 70vh !important;
     background-repeat: no-repeat !important;
@@ -89,8 +89,7 @@
     justify-content: flex-start !important;
     align-items: center !important;
     text-align: center;
-    width: 100%;
-    min-height: 1000px !important;
+    min-height: 1100px !important;
   }
 
   .p-quadrant-2 {

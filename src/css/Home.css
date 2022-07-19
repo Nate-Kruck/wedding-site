@@ -27,10 +27,10 @@
 }
 
 .home-container {
-  background: url(../images/schedule.jpg);
+  background: url(../images/reception.png);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 2000px;
+  height: 100vh;
   color: white;
 }
 
